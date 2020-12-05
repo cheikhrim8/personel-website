@@ -1,0 +1,96 @@
+html,
+body,
+.header {
+  height: 100%;
+}
+
+i{
+    opacity: .7;
+}
+.card{
+    background-color: rgba(126, 123, 215, 0.2);
+    border-radius: 0;
+  }
+  input[type=text], textarea{
+    background-color: rgba(126, 123, 215, 0.2) !important;
+    border-radius: 0 !important;
+    color: white !important;
+  }
+  ::placeholder{
+      color: white !important;
+  }
+  .btn{
+      border-radius: 0;
+  }
+.header {
+  background: url("img/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rgba-gradient {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%));
+    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  }
+
+.working-prossess,
+.quote {
+  background-color: #D5D7E4;
+  /* height: 100%; */
+}
+#contact{
+    animation: 1s all ease-in-out;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .display-4 {
+    font-size: 40px;
+  }
+
+  .header {
+    background-image: url("img/bg-sm.jpg");
+  }
+  .container {
+    width: 100%;
+  }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+
+.fa-heart{
+    animation: fa-heart 3s infinite;
+}
+
+@keyframes fa-heart{
+    0%{font-size: 20px;}
+    10%{font-size: 22px;}
+    20%{font-size: 24px;color: rgb(255, 20, 20);}
+    30%{font-size: 26px;}
+    40%{font-size: 28px;}
+    45%{font-size: 30px; color: rgb(255, 9, 9);}
+    50%{font-size: 28px;}
+    60%{font-size: 26px;}
+    70%{font-size: 24px;color: rgb(255, 20, 20);}
+    80%{font-size: 22px;}
+    90%{font-size: 20px;}
+    100%{font-size: 21px;color: rgb(255, 0, 0);}
+}
